@@ -31,7 +31,7 @@ The train_classifier.py is a machine learning pipeline that:
 The run.py contains a flask web app, the folder includes the html, css and javascript to vizualize the webapp.  
 
 
-## How to Interact with your project
+## How to Interact with the project
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
