@@ -4,7 +4,7 @@
 # Disaster Response Pipeline Project
 
 
-## Project Motivation . 
+## Project Motivation 
 
 In this project, I applied data engineering skills analyzing disaster data from Figure Eight to build a model for an API that classifies disaster messages.
 
