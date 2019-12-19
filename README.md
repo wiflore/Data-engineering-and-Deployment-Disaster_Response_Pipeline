@@ -6,7 +6,7 @@
 
 ## Project Motivation 
 
-In this project, I applied data engineering skills analyzing disaster data from Figure Eight to build a model for an API that classifies disaster messages.
+In this project, I applied data engineering skills analyzing disaster data from Figure Eight to build a model for an API that classifies disaster messages using Natural Language Processing.
 
 The project use data set containing real messages that were sent during disaster events. I created a machine learning pipeline to categorize these events and simulated send the messages to an appropriate disaster relief agency.
 This project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. 
@@ -23,7 +23,7 @@ The process_data.py is a data cleaning pipeline that:
 The train_classifier.py is a machine learning pipeline that:  
 •	Loads data from the SQLite database  
 •	Splits the dataset into training and test sets  
-•	Builds a text processing and machine learning pipeline  
+•	Builds a text processing and machine learning NLP pipeline 
 •	Trains and tunes a model using GridSearchCV  
 •	Outputs results on the test set  
 •	Exports the final model as a pickle file  
